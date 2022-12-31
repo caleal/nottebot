@@ -100,15 +100,17 @@ async def on_ready():
         if(len(newDragon) > 0):
             with open("dragonList.txt", "a") as dragonOutput: 
                 for i in newDragon  :
+                    if i == "Poliʻahu":
+                        break
                     if i is not None:
                         dragonOutput.write(str(i).replace(u"\u02bb", '') + "\n")
                 dragonOutput.close()
+                print("Done!")
 
 @bot.event
 async def on_message(message):
         length = len(message.content)
-        #if message.content == "hello":
-        #        await message.channel.send("hey dirtbag")
+        print(message.content)
         if message.content[0:3] == "dl!":
                 charName = message.content[3:length]
                 if message.content[3] == ' ':
@@ -193,12 +195,15 @@ async def on_message(message):
                     await message.channel.send(embed=embed)
 
                     #Co-abilities
+                    print(abilityNames)
                     abilityCounter = 0
                     embed = discord.Embed(title = "Co-abilities" if charName in advList else "Abilities", color = data.Color[element])
                     for i in range (len(abilities)):
                         if (i+1)%5 == 0 and i <= 9:
                             embed.add_field(name = "__**" + abilityNames[abilityCounter] + "**__", value = abilities[i])
                             abilityCounter += 1
+                            if(abilityCounter == 1):
+                                abilityCounter += 1
                     await message.channel.send(embed=embed)
 
                     #Abilities

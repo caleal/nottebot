@@ -69,10 +69,10 @@ Zephyr Imp
 Gust Drake
 Tsumuji
 Mini Jupi
-Summer Cat Sìth
+Summer Cat SÃ¬th
 Raphael
 Gala Reborn Jeanne
-Lumière Pandora
+LumiÃ¨re Pandora
 Gala Thor
 Tie Shan Gongzhu
 Daikokuten
@@ -95,10 +95,10 @@ Hinata
 Gala Bahamut
 Gala Reborn Nidhogg
 High Chthonius
-Arsène
+ArsÃ¨ne
 Giovanni
 Ramiel
-Gala Cat Sìth
+Gala Cat SÃ¬th
 Azazel
 Barbatos
 Andromeda
@@ -124,3 +124,15 @@ Zodiark
 Pallid Imp
 Gloom Drake
 Hikage
+Primal Brunhilda
+Uriel
+Gala Beast Ciella
+PoliÊ»ahu
+Michael
+Fudo Myo-o
+Gala Elysium
+Gala Chronos Nyx
+Summer Cat Sìth
+Lumière Pandora
+Arsène
+Gala Cat Sìth
