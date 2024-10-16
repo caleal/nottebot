@@ -3,10 +3,6 @@
 
 ---
 
-## Video Demo
-
----
-
 ## Description
 Nottebot is a Discord Bot made using Python that retrieves adventurer and dragon data from the Dragalia Lost Wiki(dragalialost.wiki) in order to display it within the Discord application itself. It contains the files 'abilities.py', 'advList.txt', 'data.py', 'dragonList.txt', 'skills.py', 'stats.py', 'unit.py', and 'main.py'.
 
